@@ -1,11 +1,12 @@
 usage:
-build method:
+build exe method:
+
 go build portcheck.go
 
 output:
 portcheck.exe in root directory
 
-baidu.com telnet usage:
+example for telnet baidu.com usage:
 portcheck.exe -host="39.156.69.79" -port=":80"
 
 output for success:
